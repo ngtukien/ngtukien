@@ -1,1 +1,6 @@
-Hello, Tôi tên là Nguyễn Tự Kiên. Tôi chỉ đơn giản là 1 người thích lang thang trên internet để tìm hiểu về công nghệ.
+# 👋 Hello, Tôi tên là **Nguyễn Tự Kiên**
+
+> _"Tôi chỉ đơn giản là một người thích lang thang trên internet để tìm hiểu về công nghệ."_ 🚀
+
+---
+*✨ Chúc bạn một ngày tốt lành!*
