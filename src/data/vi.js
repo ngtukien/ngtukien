@@ -14,7 +14,7 @@ export const viData = {
   sections: {
     objective: "Mục tiêu nghề nghiệp",
     education: "Học vấn",
-    skills: "Kỹ năng công nghệ",
+    skills: "Kỹ năng chuyên môn",
     softSkills: "Kỹ năng mềm",
     projects: "Dự án",
     awards: "Danh hiệu & Giải thưởng",
