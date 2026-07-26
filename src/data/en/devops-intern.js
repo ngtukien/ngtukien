@@ -28,9 +28,9 @@ export const enData = {
       id: 1,
       time: "2023 - 2028 (expected)",
       major: "Software Engineering",
-      school: "Học viện Công nghệ Bưu chính Viễn thông",
+      school: "Post and Telecommunications Institute of Technology",
       details: [
-        "GPA: 3.51",
+        "GPA: 3.54",
         "Student in the Talented Class of 2023",
         "Awarded scholarship for 4 consecutive semesters."
       ]

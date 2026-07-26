@@ -30,7 +30,7 @@ export const viData = {
       major: "Công nghệ phần mềm",
       school: "Học viện Công nghệ Bưu chính Viễn thông",
       details: [
-        "GPA : 3.51",
+        "GPA : 3.54",
         "Là sinh viên lớp tài năng khóa 2023",
         "Giành học bổng 4 kì liên tiếp."
       ]
