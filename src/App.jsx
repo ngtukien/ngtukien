@@ -70,7 +70,7 @@ function OneParamRedirect() {
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/ngtukien">
       <Routes>
         {/* Main route with lang and role */}
         <Route path="/:lang/:role" element={<CVPage />} />
