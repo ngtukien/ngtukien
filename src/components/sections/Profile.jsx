@@ -8,7 +8,7 @@ export default function Profile() {
     <div className="glass-card profile-card" style={{ padding: '1.5rem' }}>
       <div style={{ textAlign: 'center' }}>
         <div className="avatar-container">
-          <img src="/avt.svg" alt="Avatar" className="avatar-img" />
+          <img src={`${import.meta.env.BASE_URL}avt.svg`} alt="Avatar" className="avatar-img" />
         </div>
         <h1 className="name">{t('personalInfo.name')}</h1>
         <h2 className="title gradient-text" style={{ fontWeight: '600' }}>{t('personalInfo.title')}</h2>
