@@ -478,6 +478,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.8rem !important;
   }
   
+  .profile-section {
+    margin-bottom: 1.5rem !important;
+  }
+  
   [style*="margin-top"] {
     margin-top: 0.5rem !important;
   }
