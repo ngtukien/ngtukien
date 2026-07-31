@@ -47,14 +47,13 @@ export const enData = {
     },
     {
       id: 2,
-      name: "STEMIND",
-      role: "Fullstack Developer",
-      time: "08/2025 - 11/2025",
-      description: "An EdTech platform combining a learning social network with automated lecture generation.",
-      responsibilities: "Developed the Web module and infrastructure End-to-End. Built the Frontend, designed Backend APIs to handle cloud document management logic (AWS S3, Cloudflare R2), and set up the DevOps pipeline (packaging, deployment) for seamless integration with the core AI developed by the team.",
-      achievements: "Third Prize - PTIT Bootcamp \"Hack to Lead\" 2025.",
-      technologies: "Django, LangChain OpenAI, AWS (S3, EC2)",
-      sourceCode: "https://github.com/ngtukien/STEMIND.git"
+      name: "PharmAgent",
+      role: "Backend & DevOps Engineer",
+      time: "03/2026 - 05/2026",
+      description: "A HealthTech microservices platform for the elderly to track medication, recognize pills via AI, and connect with caregivers.",
+      responsibilities: "Developed the core backend with Spring Boot. Implemented real-time communication using WebSocket/STOMP and RabbitMQ. Designed MongoDB schemas and handled JWT/RBAC authentication. Set up Docker Compose environments and automated CI/CD pipelines.",
+      technologies: "Spring Boot, FastAPI, MongoDB, Redis, RabbitMQ, Docker, Kubernetes",
+      sourceCode: "https://github.com/ngtukien/PharmAgent"
     }
   ],
   awards: [

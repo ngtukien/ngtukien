@@ -37,7 +37,7 @@ export const viData = {
       id: 1,
       name: "ToiYeuPTIT DevOps",
       role: "Platform Engineer",
-      time: "4/2026 - 6/2026",
+      time: "04/2026 - 06/2026",
       description: "Nền tảng học tập và thực hành DevOps tương tác (tương tự KodeKloud), cung cấp môi trường lab thực tế cho học viên thao tác trực tiếp.",
       responsibilities: "Trực tiếp thiết kế và triển khai cụm Kubernetes cùng Container Runtime làm hạ tầng lõi. Xây dựng cơ chế cấp phát, cô lập (isolation) và thu hồi tài nguyên (môi trường lab/sandbox) tự động, duy trì tính ổn định khi có nhiều học viên truy cập đồng thời.",
       technologies: "Kubernetes, Docker, Sysbox Runtime, Ansible.",
@@ -45,14 +45,13 @@ export const viData = {
     },
     {
       id: 2,
-      name: "STEMIND",
-      role: "Fullstack",
-      time: "8/2025 - 11/2025",
-      description: "Nền tảng EdTech kết hợp mạng xã hội học tập và sinh bài giảng tự động.",
-      responsibilities: "Phát triển từ đầu đến cuối (End-to-End) phân hệ Web và hạ tầng của dự án. Xây dựng Frontend, thiết kế Backend API xử lý nghiệp vụ quản lý tài liệu đám mây (AWS S3, Cloudflare R2) và chịu trách nhiệm thiết lập luồng DevOps (đóng gói, triển khai) để tích hợp liền mạch với core AI do team phát triển.",
-      achievements: "Giải ba - PTIT Bootcamp \"Hack to Lead\" 2025.",
-      technologies: "Django, LangChain OpenAI, AWS (S3, EC2)",
-      sourceCode: "https://github.com/ngtukien/STEMIND.git"
+      name: "PharmAgent",
+      role: "Backend & DevOps Engineer",
+      time: "03/2026 - 05/2026",
+      description: "Nền tảng HealthTech microservices hỗ trợ người cao tuổi theo dõi lịch uống thuốc, nhận diện thuốc qua AI và kết nối với người thân.",
+      responsibilities: "Phát triển backend lõi với Spring Boot. Tích hợp tính năng realtime qua WebSocket/STOMP và RabbitMQ. Thiết kế cơ sở dữ liệu MongoDB, phân quyền RBAC và xác thực JWT. Thiết lập môi trường Docker Compose và tự động hóa luồng CI/CD.",
+      technologies: "Spring Boot, FastAPI, MongoDB, Redis, RabbitMQ, Docker, Kubernetes",
+      sourceCode: "https://github.com/ngtukien/PharmAgent"
     }
   ],
   awards: [
