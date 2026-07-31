@@ -50,7 +50,7 @@ export const viData = {
       time: "8/2025 - 11/2025",
       description: "Nền tảng EdTech kết hợp mạng xã hội học tập và sinh bài giảng tự động.",
       responsibilities: "Phát triển từ đầu đến cuối (End-to-End) phân hệ Web và hạ tầng của dự án. Xây dựng Frontend, thiết kế Backend API xử lý nghiệp vụ quản lý tài liệu đám mây (AWS S3, Cloudflare R2) và chịu trách nhiệm thiết lập luồng DevOps (đóng gói, triển khai) để tích hợp liền mạch với core AI do team phát triển.",
-      achievements: "Giải Ba - Cuộc thi PTIT BOOTCAMP 2025.",
+      achievements: "Giải ba - PTIT Bootcamp \"Hack to Lead\" 2025.",
       technologies: "Django, LangChain OpenAI, AWS (S3, EC2)",
       sourceCode: "https://github.com/ngtukien/STEMIND.git"
     }

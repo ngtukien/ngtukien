@@ -52,7 +52,7 @@ export const enData = {
       time: "08/2025 - 11/2025",
       description: "An EdTech platform combining a learning social network with automated lecture generation.",
       responsibilities: "Developed the Web module and infrastructure End-to-End. Built the Frontend, designed Backend APIs to handle cloud document management logic (AWS S3, Cloudflare R2), and set up the DevOps pipeline (packaging, deployment) for seamless integration with the core AI developed by the team.",
-      achievements: "Third Prize - PTIT BOOTCAMP 2025.",
+      achievements: "Third Prize - PTIT Bootcamp \"Hack to Lead\" 2025.",
       technologies: "Django, LangChain OpenAI, AWS (S3, EC2)",
       sourceCode: "https://github.com/ngtukien/STEMIND.git"
     }
