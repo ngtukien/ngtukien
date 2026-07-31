@@ -33,8 +33,8 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: 'vi-devops-intern', // default fallback
-    fallbackLng: 'en-devops-intern',
+    lng: 'vi-student', // default fallback
+    fallbackLng: 'en-student',
     interpolation: {
       escapeValue: false 
     }

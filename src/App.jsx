@@ -1,9 +1,14 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Navigate, useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import Sidebar from './components/Sidebar';
-import MainContent from './components/MainContent';
 import { availableRoles } from './i18n';
+
+import Profile from './components/Profile';
+import Education from './components/Education';
+import Awards from './components/Awards';
+import Certifications from './components/Certifications';
+import Projects from './components/Projects';
+import Activities from './components/Activities';
 
 class ErrorBoundary extends React.Component {
   constructor(props) { super(props); this.state = { hasError: false, error: null }; }
@@ -28,17 +33,23 @@ function CVPage() {
   }, [lang, role, i18n, isValidRole, isValidLang]);
 
   if (!isValidRole || !isValidLang) {
-    // If invalid, fallback to vi/devops-intern (or the first available role if devops-intern is missing)
-    const fallbackRole = availableRoles.includes('devops-intern') ? 'devops-intern' : (availableRoles[0] || 'devops-intern');
+    // If invalid, fallback to vi/student (or the first available role if student is missing)
+    const fallbackRole = availableRoles.includes('student') ? 'student' : (availableRoles[0] || 'student');
     return <Navigate to={`/vi/${fallbackRole}`} replace />;
   }
 
   return (
     <ErrorBoundary>
       <div className="container animate-fade-in">
-        <div className="cv-grid">
-          <Sidebar />
-          <MainContent />
+        <div className="cv-single-column">
+          <main className="main-content delay-2">
+            <Profile />
+            <Education />
+            <Awards />
+            <Certifications />
+            <Projects />
+            <Activities />
+          </main>
         </div>
       </div>
       {/* Animated Aurora Background */}
@@ -56,7 +67,7 @@ function OneParamRedirect() {
   const { param } = useParams();
   
   if (param === 'vi' || param === 'en') {
-    const fallbackRole = availableRoles.includes('devops-intern') ? 'devops-intern' : (availableRoles[0] || 'devops-intern');
+    const fallbackRole = availableRoles.includes('student') ? 'student' : (availableRoles[0] || 'student');
     return <Navigate to={`/${param}/${fallbackRole}`} replace />;
   }
   
@@ -64,7 +75,7 @@ function OneParamRedirect() {
     return <Navigate to={`/vi/${param}`} replace />;
   }
 
-  const fallbackRole = availableRoles.includes('devops-intern') ? 'devops-intern' : (availableRoles[0] || 'devops-intern');
+  const fallbackRole = availableRoles.includes('student') ? 'student' : (availableRoles[0] || 'student');
   return <Navigate to={`/vi/${fallbackRole}`} replace />;
 }
 

@@ -52,7 +52,7 @@ body {
   font-family: "Lora", serif;
   background-color: var(--bg-color);
   color: var(--text-main);
-  line-height: 1.6;
+  line-height: 1.5;
   min-height: 100vh;
   position: relative;
   z-index: 0;
@@ -134,14 +134,10 @@ h1, h2, h3, h4, h5, h6 {
   backdrop-filter: blur(var(--glass-blur));
   -webkit-backdrop-filter: blur(var(--glass-blur));
   border: 1px solid var(--border);
-  border-radius: 16px;
-  padding: 2rem;
-  transition: all 0.3s ease;
-}
-
-.glass-card:hover {
-  background: var(--surface-hover);
-  box-shadow: 0 10px 30px -10px rgba(0,0,0,0.5);
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 0;
 }
 
 /* Gradient Text Utility */
@@ -193,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
 .main-content {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .profile-card {
@@ -266,45 +262,19 @@ h1, h2, h3, h4, h5, h6 {
   flex-shrink: 0;
 }
 
-/* Section Header (Pill Style) */
 .section-header {
-  display: flex;
-  align-items: center;
-  margin-bottom: 1.5rem;
-}
-
-.section-header::after {
-  content: '';
-  flex: 1;
-  height: 1px;
-  background: var(--primary);
-  opacity: 0.5;
-  margin-left: 1rem;
+  margin-bottom: 0.75rem;
+  border-bottom: 1.5px solid var(--text-main);
+  padding-bottom: 0.3rem;
 }
 
 .section-title {
-  background: var(--surface-color);
   color: var(--text-main);
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
-  font-size: 0.95rem;
-  font-weight: 600;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  border-left: 4px solid var(--primary);
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  border-top: 1px solid var(--border);
-  border-right: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-size: 1.15rem;
+  font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-}
-
-.section-title svg {
-  color: var(--primary-hover);
+  margin: 0;
 }
 
 /* Timeline (Education, Experience, Projects) */
@@ -435,20 +405,40 @@ h1, h2, h3, h4, h5, h6 {
 .delay-3 { animation: fadeIn 0.8s ease forwards; animation-delay: 0.3s; opacity: 0; }
 .delay-4 { animation: fadeIn 0.8s ease forwards; animation-delay: 0.4s; opacity: 0; }
 
+/* TopCV Row Layout */
+.topcv-row {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 1.25rem;
+  align-items: flex-start;
+}
+
+.topcv-date {
+  width: 220px;
+  flex-shrink: 0;
+  font-weight: 400;
+  color: var(--text-main);
+  padding-right: 1.5rem;
+}
+
+.topcv-content {
+  flex-grow: 1;
+}
+
 /* -------------------------------------
  * PRINT STYLES (CTRL + P / PDF EXPORT)
  * ------------------------------------- */
 @media print {
   @page {
     size: A4 portrait;
-    margin: 8mm; /* Reduced margin to fit more content */
+    margin: 5mm; /* Maximize page space */
   }
   
   body {
     background: #ffffff !important;
     color: #000000 !important;
-    font-size: 10pt !important;
-    line-height: 1.5 !important;
+    font-size: 9.5pt !important;
+    line-height: 1.4 !important;
   }
 
   /* CRITICAL: Hide the animated background in print! */
@@ -512,15 +502,15 @@ h1, h2, h3, h4, h5, h6 {
     background: none !important;
     -webkit-text-fill-color: #000 !important;
     color: #000 !important;
-    font-size: 14pt !important;
+    font-size: 13pt !important;
     margin-bottom: 0 !important;
   }
 
   .title {
-    color: #1e293b !important; /* Standard dark slate */
+    color: #1e293b !important;
     font-weight: 600 !important;
-    font-size: 10pt !important;
-    margin-bottom: 1rem !important; /* Pushed contact info down */
+    font-size: 9.5pt !important;
+    margin-bottom: 0.35rem !important;
   }
 
   .text-muted, [style*="color: var(--text-muted)"] {
@@ -535,13 +525,14 @@ h1, h2, h3, h4, h5, h6 {
     color: #000 !important;
   }
 
-  .avatar-container {
-    margin-bottom: 0.25rem !important; /* Pull name up closer to avatar */
+  .avatar-wrapper {
+    width: 95px !important;
+    margin-bottom: 0 !important;
   }
 
   .avatar-img {
-    width: 110px !important;
-    height: 110px !important;
+    width: 100% !important;
+    height: 100% !important;
     border: 2px solid #cbd5e1 !important;
     box-shadow: none !important;
     margin-bottom: 0 !important;
@@ -572,27 +563,24 @@ h1, h2, h3, h4, h5, h6 {
   .section-header {
     page-break-after: avoid !important;
     break-after: avoid !important;
-    margin-bottom: 0.5rem !important; /* Pull content closer to title */
+    margin-bottom: 0.4rem !important;
+    padding-bottom: 0.2rem !important;
   }
 
   .section-title {
-    background: transparent !important;
     color: #1e293b !important;
-    border: none !important;
-    border-bottom: 2px solid #1e293b !important;
-    border-radius: 0 !important;
-    box-shadow: none !important;
-    padding: 0 0 0.1rem 0 !important;
-    margin-bottom: 0 !important; /* Margin handled by header */
     font-size: 10.5pt !important;
+    font-weight: 700 !important;
   }
 
-  .section-title svg {
+  .topcv-row {
+    margin-bottom: 0.75rem !important;
+  }
+
+  .topcv-date {
+    width: 170px !important;
     color: #1e293b !important;
-  }
-
-  .section-header::after {
-    display: none !important;
+    font-weight: 400 !important;
   }
 
   /* Timeline adjustments */
@@ -616,13 +604,14 @@ h1, h2, h3, h4, h5, h6 {
 
   .timeline-title {
     color: #000 !important;
-    font-size: 10pt !important;
+    font-size: 9.5pt !important;
     font-weight: 600 !important;
   }
 
   .timeline-subtitle {
     color: #334155 !important;
-    font-size: 9.5pt !important;
+    font-size: 9pt !important;
+    margin-bottom: 0 !important;
   }
 
   .timeline-date {
@@ -651,14 +640,22 @@ h1, h2, h3, h4, h5, h6 {
     color: #000 !important;
     font-weight: 600 !important;
   }
+  
+  .timeline-content ul {
+    margin-top: 0.35rem !important;
+  }
+  
+  .timeline-content li {
+    margin-bottom: 0.2rem !important;
+  }
 
   /* General elements */
   .main-content {
-    gap: 1.5rem !important;
+    gap: 0.25rem !important;
   }
   
   .sidebar {
-    gap: 1.5rem !important;
+    gap: 1rem !important;
   }
 
   /* Disable animations */
