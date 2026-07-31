@@ -61,9 +61,8 @@ export const viData = {
     { id: 4, time: "12 - 2024", title: "Giải nhì trong nội dung Computing Track của cuộc thi Huawei ICT 2024 - 2025 vòng quốc gia" }
   ],
   certifications: [
-    { id: 1, time: "02 - 2026", name: "Ultimate Devops Bootcamp by School of Devops" },
-    { id: 2, time: "06 - 2025", name: "PTIT Samsung 2025 Devops Basis" },
-    { id: 3, time: "12 - 2024", name: "TOEIC - 620" }
+    { id: 1, time: "06 - 2025", name: "PTIT Samsung 2025 Devops Basis" },
+    { id: 2, time: "11 - 2024", name: "TOEIC - 620" }
   ],
   activities: [
     {

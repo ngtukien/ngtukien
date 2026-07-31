@@ -63,9 +63,8 @@ export const enData = {
     { id: 4, time: "12 - 2024", title: "Second Prize in Computing Track at Huawei ICT 2024 - 2025 (National Final)" }
   ],
   certifications: [
-    { id: 1, time: "02 - 2026", name: "Ultimate Devops Bootcamp by School of Devops" },
-    { id: 2, time: "06 - 2025", name: "PTIT Samsung 2025 Devops Basis" },
-    { id: 3, time: "12 - 2024", name: "TOEIC - 620" }
+    { id: 1, time: "06 - 2025", name: "PTIT Samsung 2025 Devops Basis" },
+    { id: 2, time: "11 - 2024", name: "TOEIC - 620" }
   ],
   activities: [
     {
