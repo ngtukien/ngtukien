@@ -42,7 +42,7 @@ export const enData = {
       time: "04/2026 - 06/2026",
       description: "An interactive DevOps learning and practice platform (similar to KodeKloud), providing real lab environments for students.",
       responsibilities: "Directly designed and deployed Kubernetes clusters along with Container Runtimes as the core infrastructure. Built mechanisms for automated resource provisioning, isolation (sandbox environments), and revocation, ensuring stability when accessed by multiple students simultaneously.",
-      technologies: "Kubernetes, Docker, Sysbox Runtime, Ansible.",
+      technologies: "Kubernetes, Docker, Sysbox Runtime, Ansible, Spring Boot",
       projectLink: "https://devops.toiyeuptit.com/"
     },
     {

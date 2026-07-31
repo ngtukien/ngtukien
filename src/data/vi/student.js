@@ -40,7 +40,7 @@ export const viData = {
       time: "04/2026 - 06/2026",
       description: "Nền tảng học tập và thực hành DevOps tương tác (tương tự KodeKloud), cung cấp môi trường lab thực tế cho học viên thao tác trực tiếp.",
       responsibilities: "Trực tiếp thiết kế và triển khai cụm Kubernetes cùng Container Runtime làm hạ tầng lõi. Xây dựng cơ chế cấp phát, cô lập (isolation) và thu hồi tài nguyên (môi trường lab/sandbox) tự động, duy trì tính ổn định khi có nhiều học viên truy cập đồng thời.",
-      technologies: "Kubernetes, Docker, Sysbox Runtime, Ansible.",
+      technologies: "Kubernetes, Docker, Sysbox Runtime, Ansible, Spring Boot",
       projectLink: "https://devops.toiyeuptit.com/"
     },
     {
