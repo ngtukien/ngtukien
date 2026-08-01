@@ -55,10 +55,11 @@ export const viData = {
     }
   ],
   awards: [
-    { id: 1, time: "08 - 2025", title: "Giải ba PTIT Bootcamp \"Hack to Lead\" 2025" },
-    { id: 2, time: "05 - 2025", title: "Giải nhì trong nội dung Computing Track của cuộc thi Huawei ICT 2024 - 2025 vòng quốc tế" },
-    { id: 3, time: "02 - 2025", title: "Giải xuất sắc trong nội dung Computing Track của cuộc thi Huawei ICT 2024 - 2025 vòng APAC" },
-    { id: 4, time: "12 - 2024", title: "Giải nhì trong nội dung Computing Track của cuộc thi Huawei ICT 2024 - 2025 vòng quốc gia" }
+    { id: 1, time: "07 - 2026", title: "Đại sứ tài năng của chương trình Viettel Digital Talent 2026" },
+    { id: 2, time: "08 - 2025", title: "Giải ba PTIT Bootcamp \"Hack to Lead\" 2025" },
+    { id: 3, time: "05 - 2025", title: "Giải nhì trong nội dung Computing Track của cuộc thi Huawei ICT 2024 - 2025 vòng quốc tế" },
+    { id: 4, time: "02 - 2025", title: "Giải xuất sắc trong nội dung Computing Track của cuộc thi Huawei ICT 2024 - 2025 vòng APAC" },
+    { id: 5, time: "12 - 2024", title: "Giải nhì trong nội dung Computing Track của cuộc thi Huawei ICT 2024 - 2025 vòng quốc gia" }
   ],
   certifications: [
     { id: 1, time: "06 - 2025", name: "PTIT Samsung 2025 Devops Basis" },

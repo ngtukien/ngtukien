@@ -57,10 +57,11 @@ export const enData = {
     }
   ],
   awards: [
-    { id: 1, time: "08 - 2025", title: "Third Prize - PTIT Bootcamp \"Hack to Lead\" 2025" },
-    { id: 2, time: "05 - 2025", title: "Second Prize in Computing Track at Huawei ICT 2024 - 2025 (Global Final)" },
-    { id: 3, time: "02 - 2025", title: "Excellence Award in Computing Track at Huawei ICT 2024 - 2025 (APAC Region)" },
-    { id: 4, time: "12 - 2024", title: "Second Prize in Computing Track at Huawei ICT 2024 - 2025 (National Final)" }
+    { id: 1, time: "07 - 2026", title: "Talent Ambassador of Viettel Digital Talent Program 2026" },
+    { id: 2, time: "08 - 2025", title: "Third Prize - PTIT Bootcamp \"Hack to Lead\" 2025" },
+    { id: 3, time: "05 - 2025", title: "Second Prize in Computing Track at Huawei ICT 2024 - 2025 (Global Final)" },
+    { id: 4, time: "02 - 2025", title: "Excellence Award in Computing Track at Huawei ICT 2024 - 2025 (APAC Region)" },
+    { id: 5, time: "12 - 2024", title: "Second Prize in Computing Track at Huawei ICT 2024 - 2025 (National Final)" }
   ],
   certifications: [
     { id: 1, time: "06 - 2025", name: "PTIT Samsung 2025 Devops Basis" },
