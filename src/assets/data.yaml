@@ -85,6 +85,7 @@ design:
   theme: engineeringresumes
   page:
     size: a4
+    show_top_note: false
   typography:
     font_family:
       body: XCharter
