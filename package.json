@@ -6,7 +6,8 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "cv:build": "rendercv render data.yaml --pdf-path src/assets/resume.pdf"
   },
   "repository": {
     "type": "git",
