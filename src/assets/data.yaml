@@ -5,6 +5,8 @@ cv:
   email: ngtukien218.work@gmail.com
   phone: "+84395376905"
   social_networks:
+    - network: LinkedIn
+      username: ngtukien218
     - network: GitHub
       username: ngtukien
   sections:

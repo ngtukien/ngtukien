@@ -3,6 +3,7 @@
 - Phone: +84 395 376 905
 - Email: [ngtukien218.work@gmail.com](mailto:ngtukien218.work@gmail.com)
 - Location: Hanoi, Vietnam
+- LinkedIn: [ngtukien218](https://linkedin.com/in/ngtukien218)
 - GitHub: [ngtukien](https://github.com/ngtukien)
 
 

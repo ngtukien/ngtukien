@@ -6,7 +6,7 @@
   name: "Nguyen Tu Kien",
   title: "Nguyen Tu Kien - CV",
   footer: context { [#emph[Nguyen Tu Kien -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Aug 2026] ],
+  top-note: [ #sym.ast.basic Aug 2026#sym.ast.basic#h(0pt, weak: true) ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "a4",
@@ -94,6 +94,7 @@
   [Hanoi, Vietnam],
   [#link("mailto:ngtukien218.work@gmail.com", icon: false, if-underline: false, if-color: false)[ngtukien218.work\@gmail.com]],
   [#link("tel:+84-395-376-905", icon: false, if-underline: false, if-color: false)[0395 376 905]],
+  [#link("https://linkedin.com/in/ngtukien218", icon: false, if-underline: false, if-color: false)[linkedin.com\/in\/ngtukien218]],
   [#link("https://github.com/ngtukien", icon: false, if-underline: false, if-color: false)[github.com\/ngtukien]],
 )
 
