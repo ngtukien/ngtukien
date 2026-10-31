@@ -6,14 +6,14 @@
   name: "Nguyen Tu Kien",
   title: "Nguyen Tu Kien - CV",
   footer: context { [#emph[Nguyen Tu Kien -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #sym.ast.basic Aug 2026#sym.ast.basic#h(0pt, weak: true) ],
+  top-note: [ #sym.ast.basic Oct 2026#sym.ast.basic#h(0pt, weak: true) ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "a4",
-  page-top-margin: 0.7in,
-  page-bottom-margin: 0.7in,
-  page-left-margin: 0.7in,
-  page-right-margin: 0.7in,
+  page-top-margin: 0.4in,
+  page-bottom-margin: 0.4in,
+  page-left-margin: 0.5in,
+  page-right-margin: 0.5in,
   page-show-footer: false,
   page-show-top-note: false,
   colors-body: rgb(0, 0, 0),
@@ -32,7 +32,7 @@
   typography-font-family-headline: "XCharter",
   typography-font-family-connections: "XCharter",
   typography-font-family-section-titles: "XCharter",
-  typography-font-size-body: 10.5pt,
+  typography-font-size-body: 10pt,
   typography-font-size-name: 24pt,
   typography-font-size-headline: 10pt,
   typography-font-size-connections: 10pt,
@@ -49,9 +49,9 @@
   links-show-external-link-icon: false,
   header-alignment: center,
   header-photo-width: 3.5cm,
-  header-space-below-name: 0.7cm,
-  header-space-below-headline: 0.7cm,
-  header-space-below-connections: 0.7cm,
+  header-space-below-name: 0.25cm,
+  header-space-below-headline: 0.25cm,
+  header-space-below-connections: 0.3cm,
   header-connections-hyperlink: true,
   header-connections-show-icons: false,
   header-connections-display-urls-instead-of-usernames: true,
@@ -59,11 +59,11 @@
   header-connections-space-between-connections: 0.5cm,
   section-titles-type: "with_full_line",
   section-titles-line-thickness: 0.5pt,
-  section-titles-space-above: 0.5cm,
-  section-titles-space-below: 0.3cm,
+  section-titles-space-above: 0.3cm,
+  section-titles-space-below: 0.15cm,
   sections-allow-page-break: true,
   sections-space-between-text-based-entries: 0.15cm,
-  sections-space-between-regular-entries: 8pt,
+  sections-space-between-regular-entries: 4pt,
   entries-date-and-location-width: 4.15cm,
   entries-side-space: 0cm,
   entries-space-between-columns: 0.1cm,
@@ -75,13 +75,13 @@
   entries-highlights-bullet:  text(13pt, [•], baseline: -0.6pt) ,
   entries-highlights-nested-bullet:  text(13pt, [•], baseline: -0.6pt) ,
   entries-highlights-space-left: 0cm,
-  entries-highlights-space-above: 4pt,
-  entries-highlights-space-between-items: 4pt,
+  entries-highlights-space-above: 2pt,
+  entries-highlights-space-between-items: 2pt,
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 8,
-    day: 11,
+    month: 10,
+    day: 31,
   ),
 )
 
@@ -113,9 +113,30 @@
   main-column-second-row: [
     Engineer of Software Engineering - Talent Program
 
-    - #strong[GPA:] 3.54 \/ 4.00 (Software Engineering Talent Program)
+    - #strong[CPA:] 3.58 \/ 4.00 (Software Engineering Talent Program)
 
     - #strong[Relevant Coursework:] Cloud Computing, Distributed Systems, Operating Systems, Computer Networks.
+
+  ],
+)
+
+== Experience
+
+#regular-entry(
+  [
+    #strong[Viettel Network (Tổng Công ty Mạng lưới Viettel)]
+
+  ],
+  [
+    Aug 2026 – present
+
+  ],
+  main-column-second-row: [
+    Cloud Engineer (DBaaS Project)
+
+    - #strong[Technologies:] Kubernetes, CloudNativePG, PostgreSQL, Debezium, Kafka, Ceph S3, PgBouncer, Docker
+
+    - #strong[Responsibilities:] Researched and deployed Cloud-Native DBaaS architecture on Kubernetes using CloudNativePG to automate database provisioning, HA failover, Ceph backup\/PITR, and connection pooling. Designed near-zero downtime database migration pipelines combining snapshot initial load and Debezium CDC streaming replication with fast cutover and rollback.
 
   ],
 )
@@ -208,25 +229,6 @@
   ],
 )
 
-#regular-entry(
-  [
-    #strong[#link("https://github.com/ngtukien/notebook-operator")[Notebook Operator]]
-
-  ],
-  [
-    June 2026 – Aug 2026
-
-  ],
-  main-column-second-row: [
-    #summary[A Kubernetes Operator managing JupyterLab environments on GPU infrastructure, serving AI\/ML training and data science research.]
-
-    - #strong[Technologies:] Kubernetes, Kubebuilder, Golang, Ansible, NVIDIA MIG, HAMi
-
-    - #strong[Responsibilities:] Engineered the Kubernetes Operator using Kubebuilder in Golang. Implemented dynamic GPU scheduling supporting both HAMi vGPU sharing and NVIDIA MIG via Extended Resources. Automated bare-metal infrastructure provisioning for K3s and NVIDIA Toolkit using Ansible. Enforced strict Pod Security constraints (non-root, dropped capabilities) for lab environments.
-
-  ],
-)
-
 == Certifications
 
 #regular-entry(
@@ -269,13 +271,7 @@
   main-column-second-row: [
     Logistics Team Member
 
-    - Exchanged specialized knowledge.
-
-    - Participated in basic and advanced programming courses organized by the Union.
-
-    - Participated in volunteer events.
-
-    - Supported events to hone soft skills.
+    - Supported organizing academic programming courses, student volunteering campaigns, and soft skills events.
 
   ],
 )
@@ -292,11 +288,7 @@
   main-column-second-row: [
     Dev-Cloud Team Member
 
-    - Participated in developing the club's products.
-
-    - Learned specialized knowledge.
-
-    - Participated in knowledge-sharing seminars.
+    - Contributed to club product development and organized cloud\/DevOps sharing workshops.
 
   ],
 )
@@ -313,11 +305,7 @@
   main-column-second-row: [
     Member
 
-    - Participated in building projects.
-
-    - Organized seminars to share knowledge.
-
-    - Supported the training of junior students.
+    - Collaborated on research projects, organized technical seminars, and mentored junior students.
 
   ],
 )

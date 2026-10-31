@@ -13,9 +13,22 @@
 
 Engineer of Software Engineering - Talent Program
 
-- **GPA:** 3.54 / 4.00 (Software Engineering Talent Program)
+- **CPA:** 3.58 / 4.00 (Software Engineering Talent Program)
 
 - **Relevant Coursework:** Cloud Computing, Distributed Systems, Operating Systems, Computer Networks.
+
+
+
+# Experience
+## **Viettel Network (Tổng Công ty Mạng lưới Viettel)**
+
+Aug 2026 – present
+
+Cloud Engineer (DBaaS Project)
+
+- **Technologies:** Kubernetes, CloudNativePG, PostgreSQL, Debezium, Kafka, Ceph S3, PgBouncer, Docker
+
+- **Responsibilities:** Researched and deployed Cloud-Native DBaaS architecture on Kubernetes using CloudNativePG to automate database provisioning, HA failover, Ceph backup/PITR, and connection pooling. Designed near-zero downtime database migration pipelines combining snapshot initial load and Debezium CDC streaming replication with fast cutover and rollback.
 
 
 
@@ -63,18 +76,6 @@ An interactive DevOps learning and practice platform (similar to KodeKloud), pro
 
 
 
-## **[Notebook Operator](https://github.com/ngtukien/notebook-operator)**
-
-June 2026 – Aug 2026
-
-A Kubernetes Operator managing JupyterLab environments on GPU infrastructure, serving AI/ML training and data science research.
-
-- **Technologies:** Kubernetes, Kubebuilder, Golang, Ansible, NVIDIA MIG, HAMi
-
-- **Responsibilities:** Engineered the Kubernetes Operator using Kubebuilder in Golang. Implemented dynamic GPU scheduling supporting both HAMi vGPU sharing and NVIDIA MIG via Extended Resources. Automated bare-metal infrastructure provisioning for K3s and NVIDIA Toolkit using Ansible. Enforced strict Pod Security constraints (non-root, dropped capabilities) for lab environments.
-
-
-
 # Certifications
 ## **PTIT Samsung 2025 DevOps Basis**
 
@@ -95,13 +96,7 @@ Nov 2024
 
 Logistics Team Member
 
-- Exchanged specialized knowledge.
-
-- Participated in basic and advanced programming courses organized by the Union.
-
-- Participated in volunteer events.
-
-- Supported events to hone soft skills.
+- Supported organizing academic programming courses, student volunteering campaigns, and soft skills events.
 
 
 
@@ -111,11 +106,7 @@ Logistics Team Member
 
 Dev-Cloud Team Member
 
-- Participated in developing the club's products.
-
-- Learned specialized knowledge.
-
-- Participated in knowledge-sharing seminars.
+- Contributed to club product development and organized cloud/DevOps sharing workshops.
 
 
 
@@ -125,10 +116,6 @@ Dev-Cloud Team Member
 
 Member
 
-- Participated in building projects.
-
-- Organized seminars to share knowledge.
-
-- Supported the training of junior students.
+- Collaborated on research projects, organized technical seminars, and mentored junior students.
 
 

@@ -16,9 +16,18 @@ cv:
         degree: Engineer of Software Engineering - Talent Program
         date: 2023 - 2028 (expected)
         highlights:
-          - "**GPA:** 3.54 / 4.00 (Software Engineering Talent Program)"
+          - "**CPA:** 3.58 / 4.00 (Software Engineering Talent Program)"
           - "**Relevant Coursework:** Cloud Computing, Distributed Systems, Operating Systems, Computer Networks."
-    
+
+    experience:
+      - company: Viettel Network (Tổng Công ty Mạng lưới Viettel)
+        position: Cloud Engineer (DBaaS Project)
+        start_date: 2026-08
+        end_date: present
+        highlights:
+          - "**Technologies:** Kubernetes, CloudNativePG, PostgreSQL, Debezium, Kafka, Ceph S3, PgBouncer, Docker"
+          - "**Responsibilities:** Researched and deployed Cloud-Native DBaaS architecture on Kubernetes using CloudNativePG to automate database provisioning, HA failover, Ceph backup/PITR, and connection pooling. Designed near-zero downtime database migration pipelines combining snapshot initial load and Debezium CDC streaming replication with fast cutover and rollback."
+
     honors_and_awards:
       - name: Talent Ambassador of Viettel Digital Talent Program 2026
         date: 2026-07
@@ -39,13 +48,6 @@ cv:
         highlights:
           - "**Technologies:** Kubernetes, Docker, Sysbox Runtime, Ansible, Spring Boot"
           - "**Responsibilities:** Directly designed and deployed Kubernetes clusters along with Container Runtimes as the core infrastructure. Built mechanisms for automated resource provisioning, isolation (sandbox environments), and revocation, ensuring stability when accessed by multiple students simultaneously."
-      - name: "[Notebook Operator](https://github.com/ngtukien/notebook-operator)"
-        start_date: 2026-06
-        end_date: 2026-08
-        summary: A Kubernetes Operator managing JupyterLab environments on GPU infrastructure, serving AI/ML training and data science research.
-        highlights:
-          - "**Technologies:** Kubernetes, Kubebuilder, Golang, Ansible, NVIDIA MIG, HAMi"
-          - "**Responsibilities:** Engineered the Kubernetes Operator using Kubebuilder in Golang. Implemented dynamic GPU scheduling supporting both HAMi vGPU sharing and NVIDIA MIG via Extended Resources. Automated bare-metal infrastructure provisioning for K3s and NVIDIA Toolkit using Ansible. Enforced strict Pod Security constraints (non-root, dropped capabilities) for lab environments."
           
     certifications:
       - name: PTIT Samsung 2025 DevOps Basis
@@ -58,24 +60,17 @@ cv:
         position: Logistics Team Member
         date: 2023 - present
         highlights:
-          - Exchanged specialized knowledge.
-          - Participated in basic and advanced programming courses organized by the Union.
-          - Participated in volunteer events.
-          - Supported events to hone soft skills.
+          - Supported organizing academic programming courses, student volunteering campaigns, and soft skills events.
       - company: CLB Tôi yêu PTIT
         position: Dev-Cloud Team Member
         date: 2025 - present
         highlights:
-          - Participated in developing the club's products.
-          - Learned specialized knowledge.
-          - Participated in knowledge-sharing seminars.
+          - Contributed to club product development and organized cloud/DevOps sharing workshops.
       - company: Lab ươm mầm tài năng - NITS
         position: Member
         date: 2025 - present
         highlights:
-          - Participated in building projects.
-          - Organized seminars to share knowledge.
-          - Supported the training of junior students.
+          - Collaborated on research projects, organized technical seminars, and mentored junior students.
 
 locale:
   language: english
@@ -86,6 +81,14 @@ design:
   page:
     size: a4
     show_top_note: false
+    top_margin: 0.4in
+    bottom_margin: 0.4in
+    left_margin: 0.5in
+    right_margin: 0.5in
+  header:
+    space_below_name: 0.25cm
+    space_below_headline: 0.25cm
+    space_below_connections: 0.3cm
   typography:
     font_family:
       body: XCharter
@@ -94,12 +97,12 @@ design:
       connections: XCharter
       section_titles: XCharter
     font_size:
-      body: 10.5pt
+      body: 10pt
       name: 24pt
     line_spacing: 1em
   section_titles:
-    space_above: 0.5cm
-    space_below: 0.3cm
+    space_above: 0.3cm
+    space_below: 0.15cm
   colors:
     name: rgb(0,0,0)
     connections: rgb(0,0,0)
@@ -118,8 +121,8 @@ design:
         POSITION
         HIGHLIGHTS
   sections:
-    space_between_regular_entries: 8pt
+    space_between_regular_entries: 4pt
   entries:
     highlights:
-      space_above: 4pt
-      space_between_items: 4pt
+      space_above: 2pt
+      space_between_items: 2pt
