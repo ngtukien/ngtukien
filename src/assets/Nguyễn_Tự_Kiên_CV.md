@@ -12,7 +12,7 @@
 
 08/2026 – Nay
 
-*Cloud Engineer*
+*Cloud Solutions Engineer*
 
 - **Nền tảng Cloud DBaaS:** Nghiên cứu và triển khai hạ tầng Database-as-a-Service trên Kubernetes sử dụng CloudNativePG Operator; tự động hóa toàn bộ vòng đời cơ sở dữ liệu (cấp phát, HA auto-failover, backup/PITR lên S3).
 
