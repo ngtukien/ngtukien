@@ -3,81 +3,81 @@
 
 // Apply the rendercv template with custom configuration
 #show: rendercv.with(
-  name: "Nguyen Tu Kien",
-  title: "Nguyen Tu Kien - CV",
-  footer: context { [#emph[Nguyen Tu Kien -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #sym.ast.basic Oct 2026#sym.ast.basic#h(0pt, weak: true) ],
-  locale-catalog-language: "en",
+  name: "Nguyễn Tự Kiên",
+  title: "Nguyễn Tự Kiên - CV",
+  footer: context { [#emph[Nguyễn Tự Kiên -- #str(here().page())\/#str(counter(page).final().first())]] },
+  top-note: [ #sym.ast.basic Th10 2026#sym.ast.basic#h(0pt, weak: true) ],
+  locale-catalog-language: "vi",
   text-direction: ltr,
   page-size: "a4",
-  page-top-margin: 0.4in,
-  page-bottom-margin: 0.4in,
-  page-left-margin: 0.5in,
-  page-right-margin: 0.5in,
+  page-top-margin: 1.0cm,
+  page-bottom-margin: 1.0cm,
+  page-left-margin: 1.6cm,
+  page-right-margin: 1.6cm,
   page-show-footer: false,
   page-show-top-note: false,
-  colors-body: rgb(0, 0, 0),
+  colors-body: rgb(30, 30, 30),
   colors-name: rgb(0, 0, 0),
-  colors-headline: rgb(0, 0, 0),
-  colors-connections: rgb(0, 0, 0),
+  colors-headline: rgb(70, 70, 70),
+  colors-connections: rgb(50, 50, 50),
   colors-section-titles: rgb(0, 0, 0),
   colors-links: rgb(0, 0, 0),
   colors-footer: rgb(128, 128, 128),
   colors-top-note: rgb(128, 128, 128),
-  typography-line-spacing: 1em,
-  typography-alignment: "justified",
+  typography-line-spacing: 0.75em,
+  typography-alignment: "justified-with-no-hyphenation",
   typography-date-and-location-column-alignment: right,
-  typography-font-family-body: "XCharter",
-  typography-font-family-name: "XCharter",
-  typography-font-family-headline: "XCharter",
-  typography-font-family-connections: "XCharter",
-  typography-font-family-section-titles: "XCharter",
+  typography-font-family-body: "Source Sans 3",
+  typography-font-family-name: "Source Sans 3",
+  typography-font-family-headline: "Source Sans 3",
+  typography-font-family-connections: "Source Sans 3",
+  typography-font-family-section-titles: "Source Sans 3",
   typography-font-size-body: 10pt,
-  typography-font-size-name: 24pt,
-  typography-font-size-headline: 10pt,
-  typography-font-size-connections: 10pt,
-  typography-font-size-section-titles: 1.2em,
+  typography-font-size-name: 26pt,
+  typography-font-size-headline: 11pt,
+  typography-font-size-connections: 9.5pt,
+  typography-font-size-section-titles: 1.15em,
   typography-small-caps-name: false,
   typography-small-caps-headline: false,
   typography-small-caps-connections: false,
   typography-small-caps-section-titles: false,
-  typography-bold-name: false,
+  typography-bold-name: true,
   typography-bold-headline: false,
   typography-bold-connections: false,
   typography-bold-section-titles: true,
-  links-underline: true,
-  links-show-external-link-icon: false,
+  links-underline: false,
+  links-show-external-link-icon: true,
   header-alignment: center,
   header-photo-width: 3.5cm,
-  header-space-below-name: 0.25cm,
+  header-space-below-name: 0.3cm,
   header-space-below-headline: 0.25cm,
-  header-space-below-connections: 0.3cm,
+  header-space-below-connections: 0.35cm,
   header-connections-hyperlink: true,
-  header-connections-show-icons: false,
-  header-connections-display-urls-instead-of-usernames: true,
-  header-connections-separator: "|",
-  header-connections-space-between-connections: 0.5cm,
+  header-connections-show-icons: true,
+  header-connections-display-urls-instead-of-usernames: false,
+  header-connections-separator: "",
+  header-connections-space-between-connections: 0.45cm,
   section-titles-type: "with_full_line",
-  section-titles-line-thickness: 0.5pt,
-  section-titles-space-above: 0.3cm,
-  section-titles-space-below: 0.15cm,
+  section-titles-line-thickness: 0.6pt,
+  section-titles-space-above: 0.5cm,
+  section-titles-space-below: 0.28cm,
   sections-allow-page-break: true,
-  sections-space-between-text-based-entries: 0.15cm,
-  sections-space-between-regular-entries: 4pt,
-  entries-date-and-location-width: 4.15cm,
+  sections-space-between-text-based-entries: 0.08cm,
+  sections-space-between-regular-entries: 0.26cm,
+  entries-date-and-location-width: 3.6cm,
   entries-side-space: 0cm,
-  entries-space-between-columns: 0.1cm,
+  entries-space-between-columns: 0.2cm,
   entries-allow-page-break: false,
   entries-short-second-row: false,
   entries-degree-width: 1cm,
   entries-summary-space-left: 0cm,
   entries-summary-space-above: 0.08cm,
-  entries-highlights-bullet:  text(13pt, [•], baseline: -0.6pt) ,
-  entries-highlights-nested-bullet:  text(13pt, [•], baseline: -0.6pt) ,
-  entries-highlights-space-left: 0cm,
-  entries-highlights-space-above: 2pt,
-  entries-highlights-space-between-items: 2pt,
-  entries-highlights-space-between-bullet-and-text: 0.3em,
+  entries-highlights-bullet:  "•" ,
+  entries-highlights-nested-bullet:  "•" ,
+  entries-highlights-space-left: 0.15cm,
+  entries-highlights-space-above: 0.16cm,
+  entries-highlights-space-between-items: 0.14cm,
+  entries-highlights-space-between-bullet-and-text: 0.45em,
   date: datetime(
     year: 2026,
     month: 10,
@@ -86,129 +86,43 @@
 )
 
 
-= Nguyen Tu Kien
+= Nguyễn Tự Kiên
 
   #headline([Cloud Solutions Engineer])
 
 #connections(
-  [Hanoi, Vietnam],
-  [#link("mailto:ngtukien218.work@gmail.com", icon: false, if-underline: false, if-color: false)[ngtukien218.work\@gmail.com]],
-  [#link("tel:+84-395-376-905", icon: false, if-underline: false, if-color: false)[0395 376 905]],
-  [#link("https://linkedin.com/in/ngtukien218", icon: false, if-underline: false, if-color: false)[linkedin.com\/in\/ngtukien218]],
-  [#link("https://github.com/ngtukien", icon: false, if-underline: false, if-color: false)[github.com\/ngtukien]],
+  [#connection-with-icon("location-dot")[Hà Nội, Việt Nam]],
+  [#link("mailto:ngtukien218.work@gmail.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[ngtukien218.work\@gmail.com]]],
+  [#link("tel:+84-395-376-905", icon: false, if-underline: false, if-color: false)[#connection-with-icon("phone")[0395 376 905]]],
+  [#link("https://linkedin.com/in/ngtukien218", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[ngtukien218]]],
+  [#link("https://github.com/ngtukien", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[ngtukien]]],
 )
 
 
-== Education
-
-#education-entry(
-  [
-    #strong[Post and Telecommunications Institute of Technology]
-
-  ],
-  [
-    2023 - 2028 (expected)
-
-  ],
-  main-column-second-row: [
-    Engineer of Software Engineering - Talent Program
-
-    - #strong[CPA:] 3.58 \/ 4.00 (Software Engineering Talent Program)
-
-    - #strong[Relevant Coursework:] Cloud Computing, Distributed Systems, Operating Systems, Computer Networks.
-
-  ],
-)
-
-== Experience
+== Kinh nghiệm làm việc
 
 #regular-entry(
   [
-    #strong[Viettel Network (Tổng Công ty Mạng lưới Viettel)]
+    #strong[Tổng Công ty Mạng lưới Viettel]
 
   ],
   [
-    Aug 2026 – present
+    08\/2026 – Nay
 
   ],
   main-column-second-row: [
-    Cloud Engineer (DBaaS Project)
+    #emph[Cloud Engineer]
 
-    - #strong[Technologies:] Kubernetes, CloudNativePG, PostgreSQL, Debezium, Kafka, Ceph S3, PgBouncer, Docker
+    - #strong[Nền tảng Cloud DBaaS:] Nghiên cứu và triển khai hạ tầng Database-as-a-Service trên Kubernetes sử dụng CloudNativePG Operator; tự động hóa toàn bộ vòng đời cơ sở dữ liệu (cấp phát, HA auto-failover, backup\/PITR lên S3).
 
-    - #strong[Responsibilities:] Researched and deployed Cloud-Native DBaaS architecture on Kubernetes using CloudNativePG to automate database provisioning, HA failover, Ceph backup\/PITR, and connection pooling. Designed near-zero downtime database migration pipelines combining snapshot initial load and Debezium CDC streaming replication with fast cutover and rollback.
+    - #strong[Database Migration Service (MGS):] Xây dựng giải pháp di chuyển dữ liệu (PostgreSQL → PostgreSQL, Oracle → PostgreSQL) qua CDC streaming (Debezium, Kafka) và snapshot; tối ưu cutover giảm thiểu downtime, hỗ trợ rollback an toàn.
+
+    - #strong[Công nghệ:] Kubernetes, CloudNativePG, PostgreSQL, Debezium, Apache Kafka, Open Everest, Docker, ...
 
   ],
 )
 
-== Honors and Awards
-
-#regular-entry(
-  [
-    #strong[Talent Ambassador of Viettel Digital Talent Program 2026]
-
-  ],
-  [
-    July 2026
-
-  ],
-  main-column-second-row: [
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Third Prize - PTIT Bootcamp \"Hack to Lead\" 2025]
-
-  ],
-  [
-    Aug 2025
-
-  ],
-  main-column-second-row: [
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Second Prize - Computing Track at Huawei ICT 2024 - 2025 (Global Stage)]
-
-  ],
-  [
-    May 2025
-
-  ],
-  main-column-second-row: [
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Grand Prize - Computing Track at Huawei ICT 2024 - 2025 (Regional Stage)]
-
-  ],
-  [
-    Feb 2025
-
-  ],
-  main-column-second-row: [
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Second Prize - Computing Track at Huawei ICT 2024 - 2025 (National Stage)]
-
-  ],
-  [
-    Dec 2024
-
-  ],
-  main-column-second-row: [
-  ],
-)
-
-== Projects
+== Dự án
 
 #regular-entry(
   [
@@ -216,20 +130,108 @@
 
   ],
   [
-    Apr 2026 – June 2026
+    04\/2026 – 06\/2026
 
   ],
   main-column-second-row: [
-    #summary[An interactive DevOps learning and practice platform (similar to KodeKloud), providing real lab environments for students.]
+    #summary[Nền tảng học tập DevOps tương tác (tương tự KodeKloud), cung cấp môi trường lab thực tế cho học viên.]
 
-    - #strong[Technologies:] Kubernetes, Docker, Sysbox Runtime, Ansible, Spring Boot
+    - #strong[Trách nhiệm:] Thiết kế, triển khai cụm Kubernetes và Container Runtime lõi; tự động hóa cấp phát, cô lập (sandbox) và thu hồi tài nguyên ổn định khi nhiều học viên truy cập đồng thời.
 
-    - #strong[Responsibilities:] Directly designed and deployed Kubernetes clusters along with Container Runtimes as the core infrastructure. Built mechanisms for automated resource provisioning, isolation (sandbox environments), and revocation, ensuring stability when accessed by multiple students simultaneously.
+    - #strong[Công nghệ:] Kubernetes, Docker, Sysbox Runtime, Ansible, Spring Boot.
 
   ],
 )
 
-== Certifications
+== Học vấn
+
+#education-entry(
+  [
+    #strong[Học viện Công nghệ Bưu chính Viễn thông (PTIT)]
+
+  ],
+  [
+    2023 – 2028 (dự kiến)
+
+  ],
+  main-column-second-row: [
+    #emph[Kỹ sư Công nghệ phần mềm – Lớp Tài năng]
+
+    - #strong[CPA:] 3.58 \/ 4.00 — học bổng 4 kỳ liên tiếp.
+
+    - #strong[Môn học tiêu biểu:] Cơ sở dữ liệu phân tán, Hệ điều hành, Mạng máy tính, ...
+
+  ],
+)
+
+== Danh hiệu & Giải thưởng
+
+#regular-entry(
+  [
+    #strong[Đại sứ tài năng – Viettel Digital Talent 2026]
+
+  ],
+  [
+    07\/2026
+
+  ],
+  main-column-second-row: [
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Giải Ba – PTIT Bootcamp \"Hack to Lead\" 2025]
+
+  ],
+  [
+    08\/2025
+
+  ],
+  main-column-second-row: [
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Giải Nhì – Computing Track cuộc thi Huawei ICT 2024 – 2025 (Vòng Quốc tế)]
+
+  ],
+  [
+    05\/2025
+
+  ],
+  main-column-second-row: [
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Giải Xuất sắc – Computing Track cuộc thi Huawei ICT 2024 – 2025 (Vòng Khu vực APAC)]
+
+  ],
+  [
+    02\/2025
+
+  ],
+  main-column-second-row: [
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Giải Nhì – Computing Track cuộc thi Huawei ICT 2024 – 2025 (Vòng Quốc gia)]
+
+  ],
+  [
+    12\/2024
+
+  ],
+  main-column-second-row: [
+  ],
+)
+
+== Chứng chỉ
 
 #regular-entry(
   [
@@ -237,7 +239,7 @@
 
   ],
   [
-    June 2025
+    06\/2025
 
   ],
   main-column-second-row: [
@@ -246,35 +248,18 @@
 
 #regular-entry(
   [
-    #strong[TOEIC - 620]
+    #strong[TOEIC 620]
 
   ],
   [
-    Nov 2024
+    11\/2024
 
   ],
   main-column-second-row: [
   ],
 )
 
-== Activities
-
-#regular-entry(
-  [
-    #strong[Liên chi Đoàn Khoa CNTT1 - PTIT]
-
-  ],
-  [
-    2023 - present
-
-  ],
-  main-column-second-row: [
-    Logistics Team Member
-
-    - Supported organizing academic programming courses, student volunteering campaigns, and soft skills events.
-
-  ],
-)
+== Hoạt động
 
 #regular-entry(
   [
@@ -282,30 +267,47 @@
 
   ],
   [
-    2025 - present
+    2025 – Nay
 
   ],
   main-column-second-row: [
-    Dev-Cloud Team Member
+    #emph[Thành viên team Dev-Cloud]
 
-    - Contributed to club product development and organized cloud\/DevOps sharing workshops.
+    - Phát triển sản phẩm công nghệ của CLB và tổ chức workshop chia sẻ kiến thức Cloud\/DevOps.
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[Lab ươm mầm tài năng - NITS]
+    #strong[Lab ươm mầm tài năng – NITS]
 
   ],
   [
-    2025 - present
+    2025 – Nay
 
   ],
   main-column-second-row: [
-    Member
+    #emph[Thành viên]
 
-    - Collaborated on research projects, organized technical seminars, and mentored junior students.
+    - Nghiên cứu dự án công nghệ và hỗ trợ đào tạo chuyên môn cho sinh viên khóa dưới.
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Liên chi Đoàn Khoa CNTT1 – PTIT]
+
+  ],
+  [
+    2023 – Nay
+
+  ],
+  main-column-second-row: [
+    #emph[Thành viên ban Hậu cần]
+
+    - Hỗ trợ tổ chức các khóa học lập trình, chiến dịch tình nguyện và sự kiện sinh viên.
 
   ],
 )
